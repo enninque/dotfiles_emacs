@@ -1,0 +1,14 @@
+# name: iterator
+# key: it
+# --
+[Symbol.iterator]() {
+  return {
+    next() {
+      $0
+
+      return {
+        done: true
+      }
+    }
+  }
+}

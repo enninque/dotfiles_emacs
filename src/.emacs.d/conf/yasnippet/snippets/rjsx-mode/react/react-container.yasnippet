@@ -1,0 +1,16 @@
+# name: react container
+# key: Rcont
+# --
+import {connect} from 'react-redux'
+
+import ${1:Component} from '../components/$1'
+
+const mapStateToProps = (state, ownProps) => ({
+  $2
+})
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+  $3
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)($1)
